@@ -5,6 +5,7 @@ body{
 h1{
     font-size: 55px;
 }
+h2{font-size: 45px;}
 .Name-Focus{
 color: orange;
 }
@@ -23,6 +24,7 @@ color: orange;
 }
 section{
     height:500px;
+    padding-bottom: 120px;
 }
 .link-button{
     text-decoration: none;
@@ -31,4 +33,35 @@ section{
     border-radius: 5px;
     font-weight: 700;
     color: white;
+}
+p{color: grey;}
+.dream{
+    background-image: url("image/dream.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.for-box{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    background-color: white;
+}
+.Experience1{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#unique{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#unique1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
